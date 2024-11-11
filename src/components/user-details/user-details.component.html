@@ -1,0 +1,14 @@
+<div *ngIf="user">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>{{user.firstName}} {{user.lastName}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p><strong>ID:</strong> {{ user.id }}</p>
+      <p><strong>Email:</strong>{{ user.email }}</p>
+      <p><strong>Biography:</strong> {{ user.biography }}</p>
+    </mat-card-content>
+  </mat-card>
+  <button mat-raised-button color="accent" (click)="goBack()">back</button>
+
+</div>
