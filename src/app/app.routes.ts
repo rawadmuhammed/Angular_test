@@ -6,6 +6,7 @@ import { UsersComponent } from '../pages/users/users.component';
 import { UserDetailsComponent } from '../components/user-details/user-details.component';
 import { NotFoundComponent } from '../pages/not-found/not-found.component';
 
+
 export const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
