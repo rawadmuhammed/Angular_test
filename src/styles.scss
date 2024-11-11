@@ -9,6 +9,7 @@ $custom-theme: mat-light-theme((
   ),
 ));
 
+
 // Include the theme
 @include angular-material-theme($custom-theme);
 
